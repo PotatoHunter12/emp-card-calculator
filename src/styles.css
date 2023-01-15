@@ -1,1 +1,5 @@
 /* Add application styles & imports to this file! */
+body {
+  overflow: hidden;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}

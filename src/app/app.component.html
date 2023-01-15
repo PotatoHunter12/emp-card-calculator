@@ -1,4 +1,22 @@
-<hello name="{{ name }}"></hello>
-<p>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&#9776;</a>
+  <a href="#">Tarot Game 1</a>
+  <a href="#">Rummy Game 1</a>
+  <a href="#">Tarot Game 2</a>
+  <a href="#">Lustik Game 1</a>
+</div>
 
-</p>
+<div id="main">
+  <h1>Card calculator</h1>
+  <div id="text">Choose a card game</div>
+  <a href="">Tarot</a>
+  <br />
+  <a href="">French Tarot</a>
+  <br />
+  <a href="">Rummy</a>
+  <br />
+  <a href="">Poker</a>
+  <br />
+  <a href="">Lustik</a>
+  <span class="nav" (click)="openNav()">&#9776;</span>
+</div>
