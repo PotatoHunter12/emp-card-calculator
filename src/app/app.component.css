@@ -13,13 +13,14 @@ a:hover,
 a:active {
   background-color: #f78078;
 }
+
 #text {
   margin-left: 8%;
 }
 h1 {
   text-align: center;
-  margin-top: 100pt;
-  margin-bottom: 30pt;
+  margin-top: 35%;
+  margin-bottom: 10%;
   font-size: 2.5em;
 }
 .sidenav {
@@ -32,17 +33,18 @@ h1 {
   background-color: #f44336;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 70px;
+  padding-top: 75px;
 }
 
 .sidenav a {
-  margin: 5pt 17pt;
+  font-variant: normal;
+  margin: 3pt 3pt 0 17pt;
   text-decoration: none;
   font-size: 15pt;
   color: white;
   transition: 0.3s;
   width: 150pt;
-  background-color: #f78078;
+  border-bottom: white 1pt solid;
 }
 
 .sidenav a:hover {
@@ -52,12 +54,13 @@ h1 {
 .sidenav .closebtn {
   position: absolute;
   left: -17pt;
-  top: -5pt;
+  top: -3pt;
   width: 40px;
   padding: 8px 15px;
   font-size: 35px;
   text-align: center;
   cursor: pointer;
+  border: none;
 }
 .nav {
   position: absolute;
